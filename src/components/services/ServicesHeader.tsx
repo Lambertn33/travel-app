@@ -1,6 +1,6 @@
 import Image from "../../assets/images/services/ServiceRightImage.png";
 
-const ServiceHeader = () => {
+const ServicesHeader = () => {
   return (
     <div className=" flex flex-col items-center relative">
       <span className="poppins text-[18px] font-semibold text-[#5e6282] uppercase">
@@ -16,4 +16,4 @@ const ServiceHeader = () => {
   );
 };
 
-export default ServiceHeader;
+export default ServicesHeader;

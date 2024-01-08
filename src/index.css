@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Volkhov&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,5 +12,8 @@
     }
     .volkhov {
         font-family: 'volkhov';
+    }
+    .sans {
+        font-family: 'Open Sans';
     }
 }
