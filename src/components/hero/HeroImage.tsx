@@ -1,4 +1,4 @@
-import DecoreImage from "../../assets/images/Decore.png";
+import DecoreImage from "../../assets/images/hero/Decore.png";
 
 const HeroImage = () => {
   return (

@@ -1,7 +1,7 @@
 import HeroImage from "../components/hero/HeroImage.tsx";
 import Navbar from "../components/navbar/Navbar.tsx";
 
-import TravelImage from '../assets/images/Traveller.png'
+import TravelImage from '../assets/images/hero/Traveller.png'
 
 const Hero = () => {
   return (
