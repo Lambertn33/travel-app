@@ -1,6 +1,7 @@
 // import Hero from "./pages/Hero"
 import Services from "./pages/Services"
 import Destinations from "./pages/Destinations"
+import Booking from "./pages/Booking"
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       {/* <Hero /> */}
       <Services />
       <Destinations />
+      <Booking />
     </div>
   )
 }
