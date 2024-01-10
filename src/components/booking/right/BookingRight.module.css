@@ -1,0 +1,17 @@
+.card {
+  padding: 20px 24px 31px 25px;
+}
+
+.card_small {
+  padding: 16px 25px 22px 20px;
+}
+
+.blur {
+  border-radius: 367px;
+  opacity: 0.8;
+  background: #59b1e6;
+  width: 354px;
+  height: 367px;
+  flex-shrink: 0;
+  filter: blur(75px);
+}
