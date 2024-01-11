@@ -3,7 +3,7 @@ import ServicesHeader from "../components/services/ServicesHeader";
 
 const Services = () => {
   return (
-    <div className="pl-[32px] md:pl-[154px] pr-[24px] md:pr-[58px]">
+    <div className="ml-[32px] md:ml-[154px] mr-[24px] md:mr-[58px]">
       <ServicesHeader />
       <ServicesList />
     </div>
