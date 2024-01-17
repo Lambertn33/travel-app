@@ -31,7 +31,7 @@ const BookingRight = () => {
         <div className="relative">
           <div className={`${styles.blur}`}></div>
           <div
-            className={`${styles.card} rounded-[26px] card-shadow w-[370px] min-h-full absolute top-[59px] right-11`}
+            className={`${styles.card} rounded-[26px] card-shadow bg-white w-[370px] min-h-full absolute top-[59px] right-11`}
           >
             <div className="flex flex-col gap-6">
               <img src={BookingImage} alt="" />
@@ -57,7 +57,7 @@ const BookingRight = () => {
               <FaRegHeart color="#4152ca" size={20} />
               <div className="absolute -right-[100px] bottom-5">
                 <div
-                  className={`w-[263px] h-[129px] rounded-[18px] card-shadow hidden md:flex ${styles.card_small}`}
+                  className={`w-[263px] h-[129px] rounded-[18px] card-shadow bg-white hidden md:flex ${styles.card_small}`}
                 >
                   <div className="flex gap-1">
                     <div>
