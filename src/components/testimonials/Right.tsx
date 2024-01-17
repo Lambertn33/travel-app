@@ -1,12 +1,11 @@
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
-import userImage from "../../assets/images/testimonials/user.png";
-
 interface TestimonialInterface {
   id: number;
   testimonial: string;
   user: string;
   location: string;
+  image: string;
 }
 
 interface TestimonialRightProps {
@@ -42,7 +41,7 @@ const Right = ({
     <div className="flex justify-between relative">
       <div className="w-[504px] h-[245px] card-shadow bg-white rounded-lg relative">
         <img
-          src={userImage}
+          src={activeTestimonial.image}
           alt=""
           className="rounded-full w-[68px] h-[68px] absolute top-[-34px] left-[-34px]"
         />
