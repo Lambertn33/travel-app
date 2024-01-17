@@ -2,7 +2,42 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 import userImage from "../../assets/images/testimonials/user.png";
 
-const Right = () => {
+interface TestimonialInterface {
+  id: number;
+  testimonial: string;
+  user: string;
+  location: string;
+}
+
+interface TestimonialRightProps {
+  activeTestimonial: TestimonialInterface;
+  onActivateTestimonial: (id: number) => void;
+  testimonialsCount: number;
+  nextTestimonial: TestimonialInterface
+}
+
+const Right = ({
+  activeTestimonial,
+  onActivateTestimonial,
+  testimonialsCount,
+  nextTestimonial,
+}: TestimonialRightProps) => {
+  
+  const isFirstSlide = activeTestimonial.id == 1;
+  const isLastSlide = activeTestimonial.id == testimonialsCount;
+  const hasAdditionalSlide = activeTestimonial.id + 1 <= testimonialsCount;
+
+  const activateByDescending = () => {
+    if (!isFirstSlide) {
+      onActivateTestimonial(activeTestimonial.id - 1);
+    }
+  };
+  const activateByAscending = () => {
+    if (!isLastSlide) {
+      onActivateTestimonial(activeTestimonial.id + 1);
+    }
+  };
+
   return (
     <div className="flex justify-between relative">
       <div className="w-[504px] h-[245px] card-shadow bg-white rounded-lg relative">
@@ -13,38 +48,49 @@ const Right = () => {
         />
         <div className="pl-[34px] pr-[68px] pt-[28px] pb-[34px] flex flex-col gap-8">
           <span className="text-[#5E6282] poppins text-base font-medium leading-8">
-            “On the Windows talking painted pasture yet its express parties use.
-            Sure last upon he same as knew next. Of believed or diverted no.”
+            {activeTestimonial.testimonial}
           </span>
           <div className="flex flex-col">
             <span className="text-[#5E6282] poppins text-lg font-semibold leading-normal">
-              Mike Taylor
+              {activeTestimonial.user}
             </span>
             <span className="text-[#5E6282] poppins text-sm font-medium leading-normal">
-              Lahore, Pakistan
+              {activeTestimonial.location}
             </span>
           </div>
         </div>
       </div>
-      <div className="w-[502px] h-[232px] border-2 -z-10 left-12 border-[#f7f7f7] rounded-lg absolute top-20">
-        <div className="pl-[34px] pr-[68px] pt-[28px] pb-[34px] flex flex-col gap-8">
+
+      {hasAdditionalSlide && (
+        <div className="w-[502px] h-[232px] border-2 -z-10 left-12 border-[#f7f7f7] rounded-lg absolute top-20">
+          <div className="pl-[34px] pr-[68px] pt-[28px] pb-[34px] flex flex-col gap-8">
           <span className="text-[#5E6282] poppins text-base font-medium leading-8">
-            “On the Windows talking painted pasture yet its express parties use.
-            Sure last upon he same as knew next. Of believed or diverted no.”
+            {nextTestimonial?.testimonial}
           </span>
           <div className="flex flex-col">
             <span className="text-[#5E6282] poppins text-lg font-semibold leading-normal">
-              Chris Thomas
+              {nextTestimonial?.user}
             </span>
             <span className="text-[#5E6282] poppins text-sm font-medium leading-normal">
-              CEO of Red Button
+              {nextTestimonial?.location}
             </span>
           </div>
         </div>
-      </div>
+        </div>
+      )}
       <div className="h-[71.5px] flex flex-col justify-between my-auto">
-        <IoIosArrowUp color="#bcb7c2"  size="20" />
-        <IoIosArrowDown color="#3e2e4d" size="20" />
+        <IoIosArrowUp
+          color={isFirstSlide ? "#bcb7c2" : "#3e2e4d"}
+          className={!isFirstSlide ? "cursor-pointer" : ""}
+          size="20"
+          onClick={activateByDescending}
+        />
+        <IoIosArrowDown
+          color={isLastSlide ? "#bcb7c2" : "#3e2e4d"}
+          className={!isLastSlide ? "cursor-pointer" : ""}
+          size="20"
+          onClick={activateByAscending}
+        />
       </div>
     </div>
   );
