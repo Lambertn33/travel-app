@@ -1,8 +1,10 @@
-import React from 'react'
+import LogosList from "../components/Logos/LogosList"
 
 const Logos = () => {
   return (
-    <div>Logos</div>
+    <div className="px-[186px] mt-[96px]">
+      <LogosList />
+    </div>
   )
 }
 

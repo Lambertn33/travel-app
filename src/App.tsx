@@ -4,6 +4,7 @@ import Destinations from "./pages/Destinations";
 import Booking from "./pages/Booking";
 // import Logos from "./pages/Logos";
 import Testimonials from "./pages/Testimonials";
+import Logos from "./pages/Logos";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Destinations />
       <Booking />
       <Testimonials />
+      <Logos />
     </div>
   );
 };
