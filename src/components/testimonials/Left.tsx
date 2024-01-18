@@ -40,7 +40,7 @@ const Left = ({
           </span>
         </div>
       </div>
-      <div className="flex gap-2">{renderDots()}</div>
+      <div className="gap-2 hidden lg:flex">{renderDots()}</div>
     </div>
   );
 };

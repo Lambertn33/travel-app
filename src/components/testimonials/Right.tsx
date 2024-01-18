@@ -43,7 +43,7 @@ const Right = ({
         <img
           src={activeTestimonial.image}
           alt=""
-          className="rounded-full w-[68px] h-[68px] absolute top-[-34px] left-[-34px]"
+          className="rounded-full w-[68px] h-[68px] absolute top-[-34px] left-[-34px] hidden lg:flex"
         />
         <div className="pl-[34px] pr-[68px] pt-[28px] pb-[34px] flex flex-col gap-8">
           <span className="text-[#5E6282] poppins text-base font-medium leading-8">
@@ -61,7 +61,7 @@ const Right = ({
       </div>
 
       {hasAdditionalSlide && (
-        <div className="w-[502px] h-[232px] border-2 -z-10 left-12 border-[#f7f7f7] rounded-lg absolute top-20">
+        <div className="w-[502px] h-[232px] border-2 -z-10 hidden lg:flex left-12 border-[#f7f7f7] rounded-lg absolute top-20">
           <div className="pl-[34px] pr-[68px] pt-[28px] pb-[34px] flex flex-col gap-8">
           <span className="text-[#5E6282] poppins text-base font-medium leading-8">
             {nextTestimonial?.testimonial}
