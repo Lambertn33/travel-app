@@ -11,8 +11,8 @@ const SubscribeForm = () => {
   };
 
   return (
-    <div className="relative pr-[100px] p-[60px]">
-      <div className="relative bg-[#DFD7F9] w-full rounded-tl-[129px] rounded-[20px] px-[144px] py-[80px] z-10">
+    <div className="relative p-0 lg:pr-[100px] lg:p-[60px]">
+      <div className="relative bg-[#DFD7F9] w-full rounded-tl-[20px] lg:rounded-tl-[129px] rounded-[20px] px-[12px] lg:px-[144px] py-[80px] z-10">
         <div className="absolute right-[-25px] top-[-25px] hidden lg:flex">
           <img src={iconImage} alt="" className="rounded-full w-[70px]" />
         </div>
@@ -21,7 +21,7 @@ const SubscribeForm = () => {
             Subscribe to get information, latest news and other interesting
             offers about Jadoo
           </span>
-          <div className="flex gap-6">
+          <div className="flex flex-col lg:flex-row gap-6">
             <div className="relative">
               <input
                 type="text"
@@ -33,7 +33,7 @@ const SubscribeForm = () => {
               </div>
             </div>
             <button
-              className={`h-[68px] rounded-[10px] w-[180px] flex justify-center items-center`}
+              className={`h-[68px] rounded-[10px] w-full lg:w-[180px] flex justify-center items-center`}
               style={btnStyles}
             >
               <span className="text-white text-center font-sans text-[17px] font-semibold leading-normal">
