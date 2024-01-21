@@ -1,4 +1,4 @@
-import Image from "../../assets/images/services/ServiceRightImage.png";
+import Image from "@/assets/images/services/ServiceRightImage.png";
 
 const ServicesHeader = () => {
   return (

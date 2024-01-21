@@ -1,5 +1,4 @@
-import ServicesList from "../components/services/ServicesList";
-import ServicesHeader from "../components/services/ServicesHeader";
+import { ServicesList, ServicesHeader } from "@/components/services";
 
 const Services = () => {
   return (

@@ -1,5 +1,5 @@
 
-import serviceActiveImage from "../../assets/images/services/serviceActive.png";
+import serviceActiveImage from "@/assets/images/services/serviceActive.png";
 
 import styles from "./serviceItem.module.css";
 
@@ -14,6 +14,7 @@ interface ServiceItemProps {
 
 const ServiceItem = ({ service }: ServiceItemProps) => {
   const additionalStyles = service.isActive ? styles.active : '';
+
   return (
     <div
       className={`pt-[45px] pb-[45px] pl-[42px] pr-[44px] ${additionalStyles} relative`}
@@ -30,7 +31,7 @@ const ServiceItem = ({ service }: ServiceItemProps) => {
         </div>
       </div>
       {service.isActive && (
-        <div className="absolute bottom-[-35px] left-[-35px] -z-10">
+        <div className="absolute bottom-[-35px] left-[-35px] -z-10 hidden lg:flex">
           <img src={serviceActiveImage} />
         </div>
       )}

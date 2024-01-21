@@ -1,9 +1,9 @@
 import ServiceItem from "./ServiceItem";
 
-import service1Image from "../../assets/images/services/service1.png";
-import service2Image from "../../assets/images/services/service2.png";
-import service3Image from "../../assets/images/services/service3.png";
-import service4Image from "../../assets/images/services/service4.png";
+import service1Image from '@/assets/images/services/service1.png'
+import service2Image from '@/assets/images/services/service2.png'
+import service3Image from '@/assets/images/services/service3.png'
+import service4Image from '@/assets/images/services/service4.png'
 
 interface ServiceInterface {
   id: number;
