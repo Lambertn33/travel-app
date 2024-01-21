@@ -2,7 +2,7 @@ import { Left, Middle, Right } from "@/components/footer";
 
 const Footer = () => {
   return (
-    <div className="mt-[96px] px-12 lg:px-[186px] flex flex-col gap-20">
+    <div className="mt-24 px-12 lg:px-[186px] flex flex-col gap-20">
       <div className="flex flex-col lg:flex-row justify-between gap-20">
         <Left />
         <Middle />
