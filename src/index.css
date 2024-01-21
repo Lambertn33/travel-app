@@ -36,14 +36,17 @@ progress[value] {
   background: var(--background);
   height: 5px;
 }
+
 progress[value]::-webkit-progress-bar {
   border-radius: 10em;
   background: var(--background);
 }
+
 progress[value]::-webkit-progress-value {
   border-radius: 10em;
   background: var(--color);
 }
+
 progress[value]::-moz-progress-bar {
   border-radius: 10em;
   background: var(--color);
