@@ -20,7 +20,7 @@ const footerLinks: FooterLink[] = [
 
 const Middle = () => {
   return (
-    <div className="flex justify-around lg:justify-between gap-[72px]">
+    <div className="grid grid-cols-2 lg:grid-cols-3 flex-col md:flex-row justify-around lg:justify-between gap-[72px]">
       {footerLinks.map((section) => (
         <div key={section.title} className="flex flex-col gap-8">
           <span className="text-[#080809] poppins text-xl font-bold leading-[124.5%]">

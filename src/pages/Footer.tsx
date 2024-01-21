@@ -3,7 +3,7 @@ import { Left, Middle, Right } from "@/components/footer";
 const Footer = () => {
   return (
     <div className="mt-24 px-12 lg:px-[186px] flex flex-col gap-20">
-      <div className="flex flex-col lg:flex-row justify-between gap-20">
+      <div className="flex items-center gap-6 lg:gap-0 lg:items-start flex-col lg:flex-row justify-between">
         <Left />
         <Middle />
         <Right />

@@ -1,6 +1,6 @@
 const Left = () => {
   return (
-    <div className="flex flex-col gap-[10px] w-[207px]">
+    <div className="flex flex-col gap-[10px] mt-0 items-start w-[207px]">
       <span className="text-[#181E4B] poppins text-[44px] font-medium leading-normal">
         Jadoo.
       </span>
