@@ -39,7 +39,7 @@ const Right = () => {
               </div>
             </div>
           </div>
-            {/* button 1 */}
+
           <div className="">
             <div className="flex items-center justify-around bg-black py-2 px-4 rounded-full gap-2">
               <FaApple color="#fff" size="20" />
