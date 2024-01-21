@@ -37,7 +37,7 @@ const DestinationsList = () => {
           <DestinationItem destination={destination} key={index} />
         )}
       </div>
-      <div className="absolute right-10 bottom-[47px] -z-10 hidden lg:flex">
+      <div className="absolute right-10 bottom-12 -z-10 hidden lg:flex">
         <img src={DestinationDecoreImg} alt="" />
       </div>
     </div>

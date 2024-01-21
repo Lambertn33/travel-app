@@ -21,7 +21,7 @@ const ServiceItem = ({ service }: ServiceItemProps) => {
     >
       <div className="flex items-center flex-col gap-[29px]">
         <img src={service.image} alt="" />
-        <div className="flex flex-col gap-[15px]">
+        <div className="flex flex-col gap-4">
           <span className="text-center leading-normal sans text-xl font-semibold text-[#1E1D4C]">
             {service.title}
           </span>

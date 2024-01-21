@@ -62,7 +62,7 @@ const Right = ({
 
       {hasAdditionalSlide && (
         <div className="w-[502px] h-[232px] border-2 -z-10 hidden lg:flex left-12 border-[#f7f7f7] rounded-lg absolute top-20">
-          <div className="pl-[34px] pr-[68px] pt-[28px] pb-[34px] flex flex-col gap-8">
+          <div className="pl-[34px] pr-[68px] pt-7 pb-8 flex flex-col gap-8">
           <span className="text-[#5E6282] poppins text-base font-medium leading-8">
             {nextTestimonial?.testimonial}
           </span>

@@ -14,7 +14,7 @@ const BookingRight = () => {
         items.push(
           <div
             key={i}
-            className="bg-[#f5f5f5] w-[36px] h-[36px] rounded-full flex items-center justify-center"
+            className="bg-[#f5f5f5] w-9 h-9 rounded-full flex items-center justify-center"
           >
             <FaLocationArrow color="#84829a" />
           </div>

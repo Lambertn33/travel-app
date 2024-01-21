@@ -31,7 +31,7 @@ const Left = ({
   return (
     <div className="flex flex-col gap-20">
       <div className="flex flex-col gap-2">
-        <span className="poppins text-[18px] font-semibold text-[#5e6282] uppercase">
+        <span className="poppins text-lg font-semibold text-[#5e6282] uppercase">
           Testimonials
         </span>
         <div className="max-w-[511px]">
