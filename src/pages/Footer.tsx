@@ -1,6 +1,4 @@
-import Left from "../components/footer/Left";
-import Middle from "../components/footer/Middle";
-import Right from "../components/footer/Right";
+import { Left, Middle, Right } from "@/components/footer";
 
 const Footer = () => {
   return (
@@ -11,7 +9,9 @@ const Footer = () => {
         <Right />
       </div>
       <div className="text-center">
-      <span className="text-[#5E6282] text-center poppins text-sm font-medium leading-[124.5%]">All rights reserved@jadoo.co</span>
+        <span className="text-[#5E6282] text-center poppins text-sm font-medium leading-[124.5%]">
+          All rights reserved@jadoo.co
+        </span>
       </div>
     </div>
   );
