@@ -1,8 +1,8 @@
-import Logo1 from "../../assets/images/logos/logo1.png";
-import Logo2 from "../../assets/images/logos/logo2.png";
-import Logo3 from "../../assets/images/logos/logo3.png";
-import Logo4 from "../../assets/images/logos/logo4.png";
-import Logo5 from "../../assets/images/logos/logo5.png";
+import Logo1 from "@/assets/images/logos/logo1.png";
+import Logo2 from "@/assets/images/logos/logo2.png";
+import Logo3 from "@/assets/images/logos/logo3.png";
+import Logo4 from "@/assets/images/logos/logo4.png";
+import Logo5 from "@/assets/images/logos/logo5.png";
 
 const LogosList = () => {
   const images = [Logo1, Logo2, Logo3, Logo4, Logo5];
