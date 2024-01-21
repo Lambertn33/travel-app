@@ -1,17 +1,17 @@
-// import Hero from "./pages/Hero"
-import Services from "./pages/Services";
-import Destinations from "./pages/Destinations";
-import Booking from "./pages/Booking";
-// import Logos from "./pages/Logos";
-import Testimonials from "./pages/Testimonials";
-import Logos from "./pages/Logos";
-import Subscribe from "./pages/Subscribe";
-import Footer from "./pages/Footer";
+import {
+  Booking,
+  Destinations,
+  Footer,
+  Logos,
+  Services,
+  Subscribe,
+  Testimonials,
+} from "@/pages";
 
 const App = () => {
   return (
-    <div className="py-[44px] relative">
-      {/* <Hero /> */}
+    <div className="py-11 relative">
+      {/* TODO: insert Hero */}
       <Services />
       <Destinations />
       <Booking />
