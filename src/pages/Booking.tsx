@@ -1,5 +1,4 @@
-import BookingLeft from "../components/booking/left/BookingLeft";
-import BookingRight from "../components/booking/right/BookingRight";
+import { BookingLeft, BookingRight } from "@/components/booking";
 
 const Booking = () => {
   return (

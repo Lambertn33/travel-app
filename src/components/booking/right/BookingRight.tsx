@@ -1,8 +1,9 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { FaRegBuilding, FaRegHeart } from "react-icons/fa";
 
-import BookingImage from "../../../assets/images/booking/booking.png";
-import RomeImage from "../../../assets/images/booking/rome.png";
+import BookingImage from "@/assets/images/booking/booking.png";
+import RomeImage from "@/assets/images/booking/rome.png";
+
 import styles from "./BookingRight.module.css";
 
 const BookingRight = () => {
@@ -26,7 +27,6 @@ const BookingRight = () => {
   };
 
   return (
-    <div className="">
       <div className="absolute right-16">
         <div className="relative">
           <div className={`${styles.blur}`}></div>
@@ -90,7 +90,6 @@ const BookingRight = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
