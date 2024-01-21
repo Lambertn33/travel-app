@@ -1,4 +1,4 @@
-import TestimonialsList from '../components/testimonials/TestimonialsList'
+import TestimonialsList from '@/components/testimonials/TestimonialsList'
 
 const Testimonials = () => {
   return (
