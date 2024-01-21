@@ -1,5 +1,5 @@
 import DestinationItem from "./DestinationItem";
-import DestinationDecoreImg from "../../assets/images/destinations/Decore.png";
+import DestinationDecoreImg from "@/assets/images/destinations/Decore.png";
 
 interface DestinationInterface {
   price: string;

@@ -1,5 +1,7 @@
-import DestinationsHeader from "../components/destinations/DestinationsHeader";
-import DestinationsList from "../components/destinations/DestinationsList";
+import {
+  DestinationsHeader,
+  DestinationsList,
+} from "@/components/destinations";
 
 const Destinations = () => {
   return (
