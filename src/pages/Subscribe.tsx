@@ -1,8 +1,8 @@
-import SubscribeForm from "../components/subscribe/SubscribeForm"
+import SubscribeForm from "@/components/subscribe/SubscribeForm"
 
 const Subscribe = () => {
   return (
-    <div className='pr-4 pl-4 lg:pr-[36px] lg:pl-[48px] mt-[124px]'>
+    <div className='px-4 lg:pr-9 lg:pl-12 mt-[124px]'>
       <SubscribeForm />
     </div>
   )

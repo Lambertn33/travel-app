@@ -1,8 +1,9 @@
 import { FaEnvelope } from "react-icons/fa";
-import starsImage from "../../assets/images/subscribe/stars.png";
-import curveLeftImage from "../../assets/images/subscribe/curveleft.png";
-import curveRightImage from "../../assets/images/subscribe/curveright.png";
-import iconImage from "../../assets/images/subscribe/icon.png";
+
+import starsImage from "@/assets/images/subscribe/stars.png";
+import curveLeftImage from "@/assets/images/subscribe/curveleft.png";
+import curveRightImage from "@/assets/images/subscribe/curveright.png";
+import iconImage from "@/assets/images/subscribe/icon.png";
 
 const SubscribeForm = () => {
   const btnStyles = {
@@ -16,8 +17,8 @@ const SubscribeForm = () => {
         <div className="absolute right-[-25px] top-[-25px] hidden lg:flex">
           <img src={iconImage} alt="" className="rounded-full w-[70px]" />
         </div>
-        <div className="text-center flex flex-col gap-[74px] items-center relative z-10">
-          <span className="text-[#5E6282] poppins text-[33px] font-semibold leading-[54px]">
+        <div className="flex flex-col gap-[74px] items-center relative z-10">
+          <span className="text-[#5E6282] text-left lg:text-center poppins text-[33px] font-semibold leading-[54px]">
             Subscribe to get information, latest news and other interesting
             offers about Jadoo
           </span>
