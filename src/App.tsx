@@ -2,6 +2,7 @@ import {
   Booking,
   Destinations,
   Footer,
+  Hero,
   Logos,
   Services,
   Subscribe,
@@ -11,7 +12,7 @@ import {
 const App = () => {
   return (
     <div className="py-11 relative">
-      {/* TODO: insert Hero */}
+      <Hero />
       <Services />
       <Destinations />
       <Booking />

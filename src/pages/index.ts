@@ -1,6 +1,7 @@
 export { default as Booking } from "./Booking";
 export { default as Destinations } from "./Destinations";
 export { default as Footer } from "./Footer";
+export { default as Hero } from "./Hero";
 export { default as Logos } from "./Logos";
 export { default as Services } from "./Services";
 export { default as Subscribe } from "./Subscribe";
