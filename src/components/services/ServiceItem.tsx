@@ -1,7 +1,7 @@
 
 import serviceActiveImage from "@/assets/images/services/serviceActive.png";
 
-import styles from "./serviceItem.module.css";
+import styles from "./ServiceItem.module.css";
 
 interface ServiceItemProps {
   service: {
