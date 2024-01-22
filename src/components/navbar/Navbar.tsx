@@ -80,9 +80,9 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <nav className="items-center justify-between hidden md:flex">
+      <nav className="items-center justify-between hidden lg:flex">
         <img src={Logo} />
-        <ul className="md:flex gap-[55px] items-center hidden">
+        <ul className="lg:flex gap-[55px] items-center hidden">
           {links.map((link) => (
             <li className={renderLinkClass(link)}>
               <a href={link.link}>{link.label}</a>
@@ -118,8 +118,8 @@ const Navbar = () => {
         </ul>
       </nav>
 
-      <div className="gap-y-3 flex md:hidden flex-col">
-        <div className="justify-between items-center flex md:hidden">
+      <div className="gap-y-3 flex lg:hidden flex-col">
+        <div className="justify-between items-center flex lg:hidden">
           <img src={Logo} />
           {isMobileOpen ? (
             <IoIosClose

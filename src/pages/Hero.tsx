@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className="ml-8 md:ml-[154px] mr-6 md:mr-[58px]">
       <Navbar />
-      <section className="flex justify-between items-center mt-16 md:z-[9999]">
+      <section className="flex justify-between items-center mt-0 md:mt-16 md:z-[9999]">
         <div className="pt-32 md:pt-4">
           <p className="text-[1.128rem] font-[700] text-[#DF6951] uppercase mb-4">
             Best Destinations around the world
