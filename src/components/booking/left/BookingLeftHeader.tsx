@@ -4,9 +4,14 @@ const BookingLeftHeader = () => {
       <span className="poppins font-semibold text-[#5E6282]">
         Easy and Fast
       </span>
-      <span className="font-bold capitalize text-[50px] volkhov">
-        Book your next trip in 3 easy steps
-      </span>
+      <div className="flex flex-col gap-4">
+        <span className="font-bold capitalize text-4xl lg:text-[50px] volkhov">
+          Book your next trip
+        </span>
+        <span className="font-bold capitalize text-4xl lg:text-[50px] volkhov">
+          in 3 easy steps
+        </span>
+      </div>
     </div>
   );
 };
