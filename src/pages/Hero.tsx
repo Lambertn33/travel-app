@@ -7,7 +7,7 @@ import Navbar from "@/components/navbar/Navbar.tsx";
 
 const Hero = () => {
   return (
-    <div className="mx-[154px]">
+    <div className="ml-8 md:ml-[154px] mr-6 md:mr-[58px]">
       <Navbar />
       <section className="flex justify-between items-center mt-16 md:z-[9999]">
         <div className="pt-32 md:pt-4">
